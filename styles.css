@@ -1,0 +1,28 @@
+.input-bar {
+    margin: 2rem 0;
+}
+    
+table {
+    margin-left : auto;
+    margin-right : auto;
+    border-spacing : 0rem;
+    border-style : solid;
+    border-width : thin;
+    border-color : gray;
+
+}
+
+tr {
+    height : 5rem;
+}
+
+td {
+    width : 5rem;
+    border-style : solid;
+    border-width : thin;
+    border-color : gray;
+}
+
+canvas {
+    position : absolute;   
+}

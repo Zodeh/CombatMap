@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Combat Map</title>
+    </head>
+
+    <body>
+        <script src="./map.js" type="text/javascript"></script>
+        <h1>Combat Map</h1>
+        <div class="input-bar">
+            <button onclick="map.createMap()">Set Map Dim</button>
+            <input id="heightInput" type ="number" placeholder="Enter Height">
+            <input id="widthInput" type="number" placeholder="Enter Width">
+        </div>
+        <canvas></canvas>
+        <table id="combatMap"></table>
+    </body>
+</html>
