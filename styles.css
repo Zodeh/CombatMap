@@ -23,6 +23,16 @@ td {
     border-color : gray;
 }
 
-canvas {
+#can {
     position : absolute;   
+}
+
+#colorBar {
+    font-size : large;
+}
+
+.color-button {
+    display : inline-block;
+    width:20px;
+    height:20px;
 }

@@ -6,7 +6,7 @@ var map = {
     createMap : function() {
         var table = document.querySelector("#combatMap");
         var tableBody = document.querySelector("tbody");
-        var canvas = document.querySelector("canvas");
+        var canvas = document.querySelector("#can");
         var tableStyle = getComputedStyle(table);
 
         // reset table
