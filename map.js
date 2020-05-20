@@ -6,7 +6,8 @@ var map = {
     createMap : function() {
         var table = document.querySelector("#combatMap");
         var tableBody = document.querySelector("tbody");
-        var canvas = document.querySelector("#can");
+        var drawCanvas = document.querySelector("#drawCanvas");
+        var charCanvas = document.querySelector("#charCanvas");
         var tableStyle = getComputedStyle(table);
 
         // reset table
@@ -36,12 +37,20 @@ var map = {
         document.querySelector("#widthInput").value = "";
         document.querySelector("#heightInput").value = "";
 
-        // set canvas size (for drawing on table)
-        canvas.height = table.offsetHeight;
-        canvas.width = table.offsetWidth;
+        // set drawCanvas size (for drawing on table)
+        drawCanvas.height = table.offsetHeight;
+        drawCanvas.width = table.offsetWidth;
 
-        // set canvas offset
-        canvas.style.marginLeft = tableStyle.marginLeft;
-        canvas.style.marginRight = tableStyle.marginRight;
+        // set charCanvas size (for adding character icons)
+        charCanvas.height = table.offsetHeight;
+        charCanvas.width = table.offsetWidth;
+
+        // set drawCanvas offset
+        drawCanvas.style.marginLeft = tableStyle.marginLeft;
+        drawCanvas.style.marginRight = tableStyle.marginRight;
+
+        // set charCanvas offset
+        charCanvas.style.marginLeft = tableStyle.marginLeft;
+        charCanvas.style.marginRight = tableStyle.marginRight;
     }
 }

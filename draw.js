@@ -12,7 +12,7 @@ var drawObj = {
     eraser : false,
 
     init : function() {
-        this.canvas = document.getElementById("can");
+        this.canvas = document.getElementById("drawCanvas");
         this.ctx = this.canvas.getContext("2d");
 
         this.canvas.addEventListener("mousemove", function (e) {

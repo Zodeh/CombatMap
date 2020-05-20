@@ -23,7 +23,7 @@ td {
     border-color : gray;
 }
 
-#can {
+.canvas {
     position : absolute;   
 }
 

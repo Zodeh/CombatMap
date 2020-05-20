@@ -25,7 +25,13 @@
             <div>Eraser</div>
             <div style="background:white;border:2px solid;" id="eraser" class="color-button" onclick="drawObj.enableEraser()"></div>
         </div>
-        <canvas id="can"></canvas>
+        <div id="addCreatureBar">
+            <button>Add Enemy</button>
+            <button>Add Player</button>
+            <input type="text" placeholder="Name">
+        </div>
+        <canvas id="charCanvas" class="canvas"></canvas>
+        <canvas id="drawCanvas" class="canvas"></canvas>
         <table id="combatMap"></table>
     </body>
 </html>
